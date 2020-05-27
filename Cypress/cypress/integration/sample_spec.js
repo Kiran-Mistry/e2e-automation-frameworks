@@ -1,8 +1,5 @@
-describe('My First Test', () => {
-    it('Does not do much!', () => {
-      expect(true).to.equal(true)
+describe('The Sky Sports homepage', () => {
+    it('should have the correct title', () => {
+      cy.visit('https://www.skysports.com/');
     })
-    it('Does not do much!', () => {
-        expect(true).to.equal(false)
-      })
   })
