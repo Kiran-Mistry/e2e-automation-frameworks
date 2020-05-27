@@ -13,4 +13,4 @@ To run the tests - `npx wdio wdio.conf.js`
 
 # Cypress
 
-To run the tests - `npx wdio wdio.conf.js` 
+To run the tests - `npx cypress open` 
