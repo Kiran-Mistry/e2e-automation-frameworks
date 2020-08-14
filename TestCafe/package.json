@@ -1,0 +1,18 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic.js",
+  "dependencies": {
+    "npm": "^6.14.7",
+    "testcafe": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test:chrome": "testcafe chrome basic.js --skip-js-errors",
+    "test:safari": "testcafe safari basic.js --skip-js-errors",
+    "test:firefox": "testcafe firefox basic.js --skip-js-errors"
+  },
+  "author": "",
+  "license": "ISC"
+}
